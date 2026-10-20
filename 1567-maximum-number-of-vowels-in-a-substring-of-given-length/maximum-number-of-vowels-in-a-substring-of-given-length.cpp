@@ -16,7 +16,10 @@ public:
                 vow_count++;
             }
             max_vow = max(max_vow, vow_count);
-        }
+
+             if (max_vow == k) {
+                return k;
+             }}
 
         return max_vow;
         
